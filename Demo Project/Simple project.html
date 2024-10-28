@@ -26,7 +26,7 @@
 	</head>
 	
 	<body>
-		<div align = "middle">
+		<div align = "middle" id = "header">
 			<img src = "IMG_7036.jpg" height = "100px" width = "100px"  /> 
 		</div> <hr>
 		
@@ -104,18 +104,18 @@
 			<form align = "center" >
 				<div>
 					<label for = "username" > Username: </label>
-					<input type = "text" id = "username" name = "username" placeholder = "only letter and number">
+					<input type = "text" id = "username" name = "username" placeholder = "only letter and number" required >
 				</div> <br>
 				
 				<div>
 					<label for = "pasword" > Password: </label>
-					<input type = "password" id = "password" name = "password" placeholder = "type your password">
+					<input type = "password" id = "password" name = "password" placeholder = "type your password" required>
 				
 				</div> <br>
 				
 				<div>
 					<label for = "email" > Email: </label>
-					<input type = "email" id = "email" name = "email" placeholder = "Enter your email">
+					<input type = "email" id = "email" name = "email" placeholder = "Enter your email" required>
 				
 				</div> <br>
 				
@@ -126,13 +126,14 @@
 					<input type = "radio" id = "other" name = "gender" value = "other" > Other
 				
 				</div> <br>
+			
 				
 				<div>
 				
 					<label for = "religion" > Religion: </label>
-					<input type = "radio" id = "islam" name = "religion" value = "islam" > Isalm
-					<input type = "radio" id = "hindu" name = "religion" value = "hindu" > Hindu
-					<input type = "radio" id = "cristhan" name = "religion" value = "cristhan" > Cristhan
+					<input type = "checkbox" id = "islam" name = "religion" value = "islam" > Isalm
+					<input type = "checkbox" id = "hindu" name = "religion" value = "hindu" > Hindu
+					<input type = "checkbox" id = "cristhan" name = "religion" value = "cristhan" > Cristhan
 				
 				</div> <br>
 				
@@ -153,7 +154,7 @@
 				</div>
 				<div>
 					<button type = "submit"> Submit </button>
-					<button type = "cancel"> cancel </button>
+					<button type = "reset"> cancel </button>
 				</div>
 				
 			</form>
@@ -178,13 +179,14 @@
 				<li> <a href = "https://www.facebook.com/iamshrabon/" target = "blank"> Faysal Ahmed FaceBook  </a> </li>
 				<li> <a href = "https://github.com/codeshrabon/" target = "blank">  Faysal Ahmed GitHUb </a> </li>
 				<li> <a href = "https://www.linkedin.com/in/043-ahmed/" target = "blank"> Faysal Ahmed Linkedin </a>  </li>
+				<li> <a href = "" id = "header"> Go top </a> </li>
 			
 			</ol>
 		
 		</div>
 		
 		<div>
-			<h3> developed by<h3>&copy;<a style = "color: red"> Faysal Ahmed </a>
+			<p> developed by <font style = "color: red"> &copy; Faysal Ahmed </font> </p>
 		</div>
 		
 		
